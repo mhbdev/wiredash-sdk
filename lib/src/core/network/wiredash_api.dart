@@ -68,7 +68,7 @@ class WiredashApi {
 
     if (response.statusCode == 200) {
       final map = jsonDecode(response.body) as Map<String, dynamic>;
-      return AttachmentId(map['id'] as String);
+      return AttachmentId(map['id'].toString());
     }
     _parseResponseForErrors(response);
   }

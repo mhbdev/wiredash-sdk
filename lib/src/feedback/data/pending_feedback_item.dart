@@ -149,7 +149,7 @@ class PendingFeedbackItemParserV2 {
         (feedbackItemJson['attachments'] as List<dynamic>?)?.map((item) {
       final map = item as Map<dynamic, dynamic>;
       final path = map['path'] as String?;
-      final attachmentId = map['id'] as String?;
+      final attachmentId = map['id']?.toString();
       final file = path != null
           ? FileDataEventuallyOnDisk.file(path)
           : FileDataEventuallyOnDisk.uploaded(
@@ -169,19 +169,19 @@ class PendingFeedbackItemParserV2 {
         (key, value) => MapEntry(key.toString(), jsonDecode(value.toString())),
       ),
       deviceInfo: deviceInfo,
-      deviceId: feedbackItemJson['deviceId'] as String,
+      deviceId: feedbackItemJson['deviceId'].toString(),
       email: feedbackItemJson['email'] as String?,
       message: feedbackItemJson['message'] as String,
       sdkVersion: feedbackItemJson['sdkVersion'] as int,
       labels: (feedbackItemJson['labels'] as List<dynamic>?)
           ?.map((it) => it as String)
           .toList(),
-      userId: feedbackItemJson['userId'] as String?,
+      userId: feedbackItemJson['userId'].toString(),
       attachments: attachments ?? [],
     );
 
     return PendingFeedbackItem(
-      id: json['id'] as String,
+      id: json['id'].toString(),
       feedbackItem: feedbackItem,
     );
   }
