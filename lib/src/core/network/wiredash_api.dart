@@ -151,7 +151,7 @@ extension UploadScreenshotApi on WiredashApi {
       screenshot: screenshot,
       type: AttachmentType.screenshot,
       // TODO generate filename when taking the screenshot
-      filename: 'Screenshot_${DateTime.now().toUtc().toIso8601String()}',
+      filename: 'Screenshot_${DateTime.now().toUtc().toIso8601String()}.png',
       contentType: MediaType('image', 'png'),
     );
   }
