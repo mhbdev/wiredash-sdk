@@ -1,0 +1,82 @@
+{
+    "@@locale": "fa",
+    "feedbackStep1MessageTitle": "نظرات خود را برای ما ارسال کنید",
+    "feedbackStep1MessageBreadcrumbTitle": "نوشتن پیام",
+    "feedbackStep1MessageDescription": "توضیح کوتاهی از آنچه با آن برخورد کردید اضافه کنید",
+    "feedbackStep1MessageHint": "وقتی می‌خواهم آواتارم را تغییر دهم یک خطای ناشناخته وجود دارد...",
+    "feedbackStep1MessageErrorMissingMessage": "لطفا یک پیام اضافه کنید",
+    "feedbackStep2LabelsTitle": "کدام برچسب بهترین بازخورد شما را نشان می دهد؟",
+    "feedbackStep2LabelsBreadcrumbTitle": "برچسب ها",
+    "feedbackStep2LabelsDescription": "انتخاب دسته مناسب به ما کمک می کند تا مشکل را شناسایی کرده و بازخورد شما را به واحد مرتبط هدایت کنیم",
+    "feedbackStep3ScreenshotOverviewTitle": "برای زمینه بهتر اسکرین شات اضافه شود؟",
+    "feedbackStep3ScreenshotOverviewBreadcrumbTitle": "اسکرین شات ها",
+    "feedbackStep3ScreenshotOverviewDescription": "می‌توانید برنامه را پیمایش کنید و انتخاب کنید چه زمانی اسکرین شات بگیرید",
+    "feedbackStep3ScreenshotOverviewSkipButton": "پرش کنید",
+    "feedbackStep3ScreenshotOverviewAddScreenshotButton": "اضافه کردن اسکرین شات",
+    "feedbackStep3ScreenshotBarNavigateTitle": "اسکرین شات بگیرید",
+    "feedbackStep3ScreenshotBarDrawTitle": "برای اضافه کردن نکات برجسته روی صفحه بکشید",
+    "feedbackStep3ScreenshotBarDrawUndoButton": "واگرد",
+    "feedbackStep3ScreenshotBarCaptureButton": "گرفتن",
+    "feedbackStep3ScreenshotBarSaveButton": "صرفه جویی",
+    "feedbackStep3ScreenshotBarOkButton": "خوب",
+    "feedbackStep3GalleryTitle": "اسکرین شات های پیوست شده",
+    "feedbackStep3GalleryBreadcrumbTitle": "اسکرین شات ها",
+    "feedbackStep3GalleryDescription": "می‌توانید اسکرین‌شات‌های بیشتری اضافه کنید تا به ما در درک بهتر مشکل شما کمک کند.",
+    "feedbackStep4EmailTitle": "به‌روزرسانی‌های ایمیلی درباره مشکل خود دریافت کنید",
+    "feedbackStep4EmailBreadcrumbTitle": "مخاطب",
+    "feedbackStep4EmailDescription": "آدرس ایمیل خود را در زیر اضافه کنید یا خالی بگذارید",
+    "feedbackStep4EmailInvalidEmail": "این آدرس ایمیل معتبری به نظر نمی رسد. می توانید آن را خالی بگذارید.",
+    "feedbackStep4EmailInputHint": "mail@example.com",
+    "feedbackStep6SubmitTitle": "بازخورد ارائه دهید",
+    "feedbackStep6SubmitBreadcrumbTitle": "ارسال",
+    "feedbackStep6SubmitDescription": "لطفا تمام اطلاعات را قبل از ارسال بررسی کنید.\nبرای تنظیم بازخورد خود در هر زمان می توانید به عقب برگردید.",
+    "feedbackStep6SubmitSubmitButton": "ارسال",
+    "feedbackStep6SubmitSubmitShowDetailsButton": "نمایش جزئیات",
+    "feedbackStep6SubmitSubmitHideDetailsButton": "پنهان کردن جزئیات",
+    "feedbackStep6SubmitSubmitDetailsTitle": "جزئیات بازخورد",
+    "feedbackStep7SubmissionInFlightMessage": "در حال ارسال بازخورد شما",
+    "feedbackStep7SubmissionSuccessMessage": "با تشکر از بازخورد شما!",
+    "feedbackStep7SubmissionErrorMessage": "ارسال بازخورد انجام نشد",
+    "feedbackStep7SubmissionOpenErrorButton": "برای مشاهده جزئیات خطا کلیک کنید",
+    "feedbackStep7SubmissionRetryButton": "دوباره امتحان کنید",
+    "feedbackStepXOfY": "مرحله {current} از {total}",
+    "@feedbackStepXOfY": {
+        "placeholders": {
+            "current": {
+                "description": "current step number 1-max",
+                "type": "int",
+                "example": "1"
+            },
+            "total": {
+                "description": "max number of steps",
+                "type": "int",
+                "example": "5"
+            }
+        }
+    },
+    "feedbackDiscardButton": "رد کردن بازخورد",
+    "feedbackDiscardConfirmButton": "مطمیئنی؟",
+    "feedbackNextButton": "ادامه",
+    "feedbackBackButton": "بازگشت",
+    "feedbackCloseButton": "بستن",
+    "promoterScoreStep1Question": "چقدر احتمال دارد به ما توصیه کنید؟",
+    "promoterScoreStep1Description": "0 = غیر محتمل، 10 = به احتمال زیاد",
+    "promoterScoreStep2MessageTitle": "چقدر احتمال دارد که ما را به دوستان و خانواده خود معرفی کنید؟",
+    "promoterScoreStep2MessageDescription": "ممکن است کمی بیشتر در مورد دلیل انتخاب {rating} به ما بگویید؟ این مرحله اختیاری است.",
+    "@promoterScoreStep2MessageDescription": {
+        "placeholders": {
+            "rating": {
+                "type": "int",
+                "example": "8"
+            }
+        }
+    },
+    "promoterScoreStep2MessageHint": "خیلی خوبه اگه بتونی پیشرفت کنی...",
+    "promoterScoreStep3ThanksMessagePromoters": "با تشکر از امتیاز شما!",
+    "promoterScoreStep3ThanksMessagePassives": "با تشکر از امتیاز شما!",
+    "promoterScoreStep3ThanksMessageDetractors": "با تشکر از امتیاز شما!",
+    "promoterScoreNextButton": "بعد",
+    "promoterScoreBackButton": "بازگشت",
+    "promoterScoreSubmitButton": "ارسال",
+    "backdropReturnToApp": "بازگشت به برنامه"
+}
