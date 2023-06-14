@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-l10nPath="lib/assets/l10n"
+l10nPath="../lib/assets/l10n"
 
 rm "$l10nPath"/*.g.dart | true
 
