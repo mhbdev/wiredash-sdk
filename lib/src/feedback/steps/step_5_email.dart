@@ -111,7 +111,7 @@ class _Step5EmailState extends State<Step5Email> with TickerProviderStateMixin {
             children: [
               TronButton(
                 color: context.theme.secondaryColor,
-                leadingIcon: Wirecons.arrow_left,
+                leadingIcon: Wirecons.arrow_right,
                 label: context.l10n.feedbackBackButton,
                 onTap: context.feedbackModel.goToPreviousStep,
               ),

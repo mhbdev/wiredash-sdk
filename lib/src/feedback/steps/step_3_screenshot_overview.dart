@@ -64,7 +64,7 @@ class _Step3NoAttachmentsState extends State<Step3NoAttachments> {
               children: [
                 TronButton(
                   color: context.theme.secondaryColor,
-                  leadingIcon: Wirecons.arrow_left,
+                  leadingIcon: Wirecons.arrow_right,
                   label: context.l10n.feedbackBackButton,
                   onTap: context.feedbackModel.goToPreviousStep,
                 ),
@@ -81,7 +81,7 @@ class _Step3NoAttachmentsState extends State<Step3NoAttachments> {
                         color: context.theme.secondaryColor,
                         label: context
                             .l10n.feedbackStep3ScreenshotOverviewSkipButton,
-                        trailingIcon: Wirecons.chevron_double_right,
+                        trailingIcon: Wirecons.chevron_double_left,
                         onTap: () async {
                           if (!mounted) return;
                           await context.feedbackModel.skipScreenshot();

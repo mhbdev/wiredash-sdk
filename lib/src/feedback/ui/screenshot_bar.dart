@@ -58,7 +58,7 @@ class ScreenshotBar extends StatelessWidget {
               children: [
                 TronButton(
                   label: context.l10n.feedbackBackButton,
-                  leadingIcon: Wirecons.arrow_left,
+                  leadingIcon: Wirecons.arrow_right,
                   color: context.theme.secondaryColor,
                   onTap: () {
                     context.feedbackModel.cancelScreenshotCapturingMode();

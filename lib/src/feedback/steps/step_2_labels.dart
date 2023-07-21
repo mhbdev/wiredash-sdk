@@ -52,7 +52,7 @@ class _Step2LabelsState extends State<Step2Labels>
             children: [
               TronButton(
                 color: context.theme.secondaryColor,
-                leadingIcon: Wirecons.arrow_left,
+                leadingIcon: Wirecons.arrow_right,
                 label: context.l10n.feedbackBackButton,
                 onTap: context.feedbackModel.goToPreviousStep,
               ),
