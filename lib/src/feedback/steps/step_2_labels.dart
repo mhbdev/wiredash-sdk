@@ -58,7 +58,7 @@ class _Step2LabelsState extends State<Step2Labels>
               ),
               TronButton(
                 label: context.l10n.feedbackNextButton,
-                trailingIcon: Wirecons.arrow_right,
+                trailingIcon: Wirecons.arrow_left,
                 onTap: context.feedbackModel.goToNextStep,
               ),
             ],
