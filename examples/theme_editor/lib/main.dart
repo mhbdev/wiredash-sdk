@@ -112,8 +112,8 @@ class _CustomizePageState extends State<CustomizePage> {
                       child: DeviceFrame(
                         device: Devices.ios.iPhone13ProMax,
                         screen: Wiredash(
-                          projectId: "Project ID from console.wiredash.io",
-                          secret: "API Key from console.wiredash.io",
+                          projectId: '100000001',
+                          secret: 'panaplatformsecret',
                           feedbackOptions: WiredashFeedbackOptions(
                             labels: [
                               Label(id: 'asdf', title: 'Bug'),

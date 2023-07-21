@@ -962,7 +962,7 @@ extension on TextStyle {
   TextStyle copyWithInter() {
     return copyWith(
       package: 'wiredash',
-      fontFamily: 'Inter',
+      fontFamily: 'Vazirmatn',
     );
   }
 }

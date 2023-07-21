@@ -69,6 +69,14 @@ flutter:
           weight: 600
         - asset: lib/assets/fonts/Inter-Bold.ttf
           weight: 700
+    - family: Vazirmatn
+      fonts:
+        - asset: lib/assets/fonts/Vazirmatn-Regular.ttf
+          weight: 400
+        - asset: lib/assets/fonts/Vazirmatn-SemiBold.ttf
+          weight: 600
+        - asset: lib/assets/fonts/Vazirmatn-Bold.ttf
+          weight: 700
     - family: Wirecons
       fonts:
         - asset: lib/assets/fonts/Wirecons.ttf

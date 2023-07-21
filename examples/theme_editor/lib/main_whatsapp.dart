@@ -4,8 +4,8 @@ import 'package:wiredash_theme_editor/marianos_clones/whatsapp_clone.dart';
 
 void main() {
   final app = Wiredash(
-    projectId: "Project ID from console.wiredash.io",
-    secret: "API Key from console.wiredash.io",
+    projectId: '100000001',
+    secret: 'panaplatformsecret',
     theme: WiredashThemeData.fromColor(
       primaryColor: WhatsappUtils.appBarMobile,
       brightness: Brightness.light,
