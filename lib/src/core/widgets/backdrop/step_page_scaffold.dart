@@ -337,7 +337,7 @@ class _ScrollBoxState extends State<ScrollBox> {
         interactive: false,
         controller: controller,
         // ignore: deprecated_member_use
-        isAlwaysShown: false,
+        thumbVisibility: false,
         child: child,
       );
     }
