@@ -84,7 +84,9 @@ class _Step3NoAttachmentsState extends State<Step3NoAttachments> {
                         trailingIcon: Wirecons.chevron_double_left,
                         onTap: () async {
                           if (!mounted) return;
+                          print('wtf0');
                           await context.feedbackModel.skipScreenshot();
+                          print('wtf1');
                         },
                       ),
                       TronButton(
@@ -144,7 +146,8 @@ class Step3WithGallery extends StatelessWidget {
                               maxWidth: constraints.maxWidth / 2.5,
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.only(right: 16),
+                              padding:
+                                  const EdgeInsetsDirectional.only(end: 16),
                               child: AttachmentPreview(attachment: att),
                             ),
                           ),
@@ -161,7 +164,7 @@ class Step3WithGallery extends StatelessWidget {
                 children: [
                   TronButton(
                     color: context.theme.secondaryColor,
-                    leadingIcon: Wirecons.arrow_left,
+                    leadingIcon: Wirecons.arrow_right,
                     label: context.l10n.feedbackBackButton,
                     onTap: context.feedbackModel.goToPreviousStep,
                   ),

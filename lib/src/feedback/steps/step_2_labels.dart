@@ -161,7 +161,7 @@ class _Label extends StatelessWidget {
                     anims.selectedAnim.value,
                   ),
                 ),
-                child: Text(label.title),
+                child: Text(label.title, style: TextStyle(fontFamily: 'Vazirmatn', package: 'wiredash'),),
               ),
             ),
           ),

@@ -65,7 +65,7 @@ class WiredashLocalizationsFa extends WiredashLocalizations {
   String get feedbackStep3ScreenshotBarCaptureButton => 'گرفتن';
 
   @override
-  String get feedbackStep3ScreenshotBarSaveButton => 'صرفه جویی';
+  String get feedbackStep3ScreenshotBarSaveButton => 'ذخیره تصاویر';
 
   @override
   String get feedbackStep3ScreenshotBarOkButton => 'خوب';

@@ -30,7 +30,7 @@ class WiredashApi {
   final String _secret;
   final Future<String> Function() _deviceIdProvider;
 
-  static const String _host = 'https://wirestorm.mbcodes.ir/api';
+  static const String _host = 'https://wirestorm.ir/api';
   // static const String _host = 'https://api.wiredash.dev/sdk';
 
   /// Uploads a attachment to the Wiredash hosting service
@@ -307,7 +307,7 @@ extension FeedbackBody on PersistedFeedbackItem {
 
     final platformDartVersion = deviceInfo.platformVersion;
     if (platformDartVersion != null) {
-      values.addAll({'platformDartVersion': platformDartVersion});
+      values.addAll({'platformDartVersion': platformDartVersion.replaceAll('"', '')});
     }
 
     values.addAll({

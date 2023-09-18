@@ -36,7 +36,7 @@ class _Step6SubmitState extends State<Step6Submit> {
                 children: [
                   TronButton(
                     color: context.theme.secondaryColor,
-                    leadingIcon: Wirecons.arrow_left,
+                    leadingIcon: Wirecons.arrow_right,
                     label: context.l10n.feedbackBackButton,
                     onTap: context.feedbackModel.goToPreviousStep,
                   ),

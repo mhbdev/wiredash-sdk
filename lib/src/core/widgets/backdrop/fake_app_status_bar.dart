@@ -58,7 +58,7 @@ class FakeAppStatusBar extends StatelessWidget {
                       // TODO : use global font family
                       Text(
                         context.l10n.backdropReturnToApp,
-                        style: const TextStyle(fontFamily: 'Vazirmatn'),
+                        style: const TextStyle(fontFamily: 'Vazirmatn', package: 'wiredash'),
                       ),
                       const SizedBox(width: 16),
                       Icon(

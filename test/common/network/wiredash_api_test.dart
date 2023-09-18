@@ -136,7 +136,7 @@ void main() {
           'platformSupportedLocales': ['en_US', 'de_DE'],
           'platformDartVersion':
               '2.10.2 (stable) (Tue Oct 13 15:50:27 2020 +0200)'
-                  ' on "android_ia32"',
+                  ' on android_ia32',
           'platformOS': 'android',
           'platformOSVersion': 'RSR1.201013.001',
           'userEmail': 'email@example.com',
@@ -216,7 +216,7 @@ void main() {
           'platformSupportedLocales': ['en_US', 'de_DE'],
           'platformDartVersion':
               '2.10.2 (stable) (Tue Oct 13 15:50:27 2020 +0200) on'
-                  ' "android_ia32"',
+                  ' android_ia32',
           'platformOS': 'android',
           'platformOSVersion': 'RSR1.201013.001',
           'userId': 'Testy McTestFace',
